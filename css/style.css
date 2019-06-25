@@ -32,6 +32,10 @@ body {
 	line-height: 24px;
 	font-weight: 700;
 }
+.main-nav a:hover{
+	padding-bottom: 10px;
+	border-bottom: 4px solid #000000;
+}
 .main-nav li{
 	margin-top: 50px;
 	margin-right: 25px;
@@ -258,6 +262,54 @@ margin-top: 30px;
 	line-height: 5px;
 	font-size: 16px;
 }
-.main-contactUs__feedback{
+.main-contactUs__feedback {
+	margin: 180px auto;
+}
+.main-contactUs__feedback form{
 	display: flex;
+	flex-direction: column;
+
+}
+.main-contactUs__feedback input{
+	width: 470px;
+	height: 60px;
+	border: 1px solid #000000;
+	margin-bottom: 60px;
+	background-color: #e7e5d0;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.main-contactUs__feedback textarea{
+	width: 470px;
+	height: 250px;
+	border: 1px solid #000000;
+	margin-bottom: 60px;
+	background-color: #e7e5d0;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.main-contactUs__feedback button{
+	width: 370px;
+	height: 60px;
+	background-color:  #9a977a;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.main-contactUs__map iframe{
+	margin: 0;
+	padding: 0;
+}
+
+.main-footer{
+	min-height: 330px;
+	width: 1500px;
+	background-color: #aeaeae;
+	margin: 0 auto;
+	margin-top: -10px;
+	padding-top: 170px;
+
+}
+.main-footer p{
+	text-align: center;
 }
