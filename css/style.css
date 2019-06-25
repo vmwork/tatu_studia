@@ -1,0 +1,63 @@
+/* Стандартные общие стили согласно цветовой гамме макета*/
+body {
+	min-width: 1500px;
+	margin: 0;
+	padding: 0;
+	
+	font-family: "Times New Roman", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	background-color: #ffffff;
+}
+/* Стилизация шапки сайта*/
+.main-header{
+	width: 1500px;
+	min-height: 500px;
+	margin: 0 auto;
+	background-image: url(../img/background-img.jpg);
+}
+.main-nav ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	text-transform: uppercase;
+}
+.main-nav a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	line-height: 24px;
+}
+.main-nav li{
+	margin-top: 50px;
+	margin-right: 25px;
+}
+.main-nav img{
+	margin-top: -25px;
+}
+
+/*блок про нас*/
+.main-contanier {
+	width: 1500px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.main-aboutUs {
+	display: flex;
+	justify-content: space-between;
+}
+.main-aboutUs__box1{
+	width: 50%;
+	min-height: 500px;
+	background-image: url(../img/studio-bg.jpg);
+	background-repeat: no-repeat;
+}
+.main-aboutUs__box2{
+	min-height: 500px;
+	width: 50%;
+	text-align: center;
+	padding-top: 95px;
+}
